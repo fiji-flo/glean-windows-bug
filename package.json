@@ -1,0 +1,11 @@
+{
+  "name": "repro",
+  "version": "1.0.0",
+  "scripts": {
+    "glean": "cross-env VIRTUAL_ENV=venv glean translate pings.yaml -f typescript -o ."
+  },
+  "dependencies": {
+    "@mozilla/glean": "^1.1.0",
+    "cross-env": "^7.0.3"
+  }
+}
